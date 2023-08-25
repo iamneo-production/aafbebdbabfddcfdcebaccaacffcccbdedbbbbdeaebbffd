@@ -4,7 +4,7 @@ export default function getUserIpDetails(userResponse={}){
     return [userName,userIp];
 }
 
-export default function getTopThree(studentMarks={} ){
-    const [first=null, second=null,third=null, ...]=studentMarks;
+export default function getTopThree(studentMarks=[]){
+    const [first=null, second=null,third=null]=studentMarks;
     return [first,second,third];
 }
